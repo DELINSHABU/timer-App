@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+*,body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Inconsolata', monospace;
+}
+body{
+    background-color: rgb(255, 236, 211);
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 20vh;
+    font-weight:300;
+}
+h2{
+    font-size: 20vh;
+}
+h3{
+    font-size: 4vh;
+    font-weight: 400;
+}
+button{
+    padding: 2vh;
+    border-radius: 2vh;
+    background-color: white;
+    border: 1px solid black;
+    transition: .2s;
+}
+button:hover{
+    padding: 2.6vh;
+    border-radius: 2vh;
+    /* background-color: rgb(117, 117, 117); */
+    border: 1px solid black;
+    color: white;
+    -webkit-box-shadow: -2px 5px 31px 11px rgba(0,0,0,0.13);
+    -moz-box-shadow: -2px 5px 31px 11px rgba(0,0,0,0.13);
+    box-shadow: -2px 5px 31px 11px rgba(0,0,0,0.13);
+    transition-timing-function: ease-out;
+}
+.topsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainpage{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.startbtn:hover{
+    background-color: green;
+}
+.stopbtn:hover{
+    background-color: red;
+}
+.resetbtn:hover{
+    background-color: rgb(255, 115, 0);
+}
+.startbtn:active{
+    background-color:white;
+    color: black;
+}
+.stopbtn:active{
+    background-color: white;
+    color: black;
+}
+.resetbtn:active{
+    background-color:white;
+    color: black;
+}
